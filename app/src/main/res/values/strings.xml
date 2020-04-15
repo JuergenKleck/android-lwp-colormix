@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ColorMix Live Wallpaper</string>
+    <string name="description">Flowing colors</string>
+    
+    <string name="seekbar_r">Red</string>
+    <string name="seekbar_g">Green</string>
+    <string name="seekbar_b">Blue</string>
+    <string name="seekbar_dialog_title">Color Changing</string>
+    <string name="seekbar_title1">Change color 1</string>
+    <string name="seekbar_summary1">Adjust the top left color</string>
+    <string name="seekbar_title2">Change color 2</string>
+    <string name="seekbar_summary2">Adjust the bottom left color</string>
+    <string name="seekbar_title3">Change color 3</string>
+    <string name="seekbar_summary3">Adjust the top right color</string>
+    <string name="seekbar_title4">Change color 4</string>
+    <string name="seekbar_summary4">Adjust the bottom right color</string>
+    <string name="seekbar_result">Resulting color</string>
+    
+    <string name="seekbar_reset">Reset color</string>
+    
+</resources>

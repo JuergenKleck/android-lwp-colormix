@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	app:title="@string/app_name"
+	app:key="colormixlwpprefs">
+
+	<PreferenceCategory
+		app:key="topleftcolorcat"
+		app:title="@string/seekbar_summary1">
+
+		<SeekBarPreference
+			android:max="255"
+			app:key="tlcred"
+			app:min="0"
+			app:title="@string/seekbar_r" />
+
+		<SeekBarPreference
+			android:max="255"
+			app:key="tlcgreen"
+			app:min="0"
+			app:title="@string/seekbar_g" />
+
+		<SeekBarPreference
+			android:max="255"
+			app:key="tlcblue"
+			app:min="0"
+			app:title="@string/seekbar_b" />
+
+	</PreferenceCategory>
+
+
+	<PreferenceCategory
+		app:key="toprightcolorcat"
+		app:title="@string/seekbar_summary3">
+
+		<SeekBarPreference
+			android:max="255"
+			app:key="trcred"
+			app:min="0"
+			app:title="@string/seekbar_r" />
+
+		<SeekBarPreference
+			android:max="255"
+			app:key="trcgreen"
+			app:min="0"
+			app:title="@string/seekbar_g" />
+
+		<SeekBarPreference
+			android:max="255"
+			app:key="trcblue"
+			app:min="0"
+			app:title="@string/seekbar_b" />
+
+	</PreferenceCategory>
+
+	<PreferenceCategory
+		app:key="bottomleftcolorcat"
+		app:title="@string/seekbar_summary2">
+
+		<SeekBarPreference
+			android:max="255"
+			app:key="blcred"
+			app:min="0"
+			app:title="@string/seekbar_r" />
+
+		<SeekBarPreference
+			android:max="255"
+			app:key="blcgreen"
+			app:min="0"
+			app:title="@string/seekbar_g" />
+
+		<SeekBarPreference
+			android:max="255"
+			app:key="blcblue"
+			app:min="0"
+			app:title="@string/seekbar_b" />
+
+	</PreferenceCategory>
+
+
+	<PreferenceCategory
+		app:key="bottomrightcolorcat"
+		app:title="@string/seekbar_summary4">
+
+		<SeekBarPreference
+			android:max="255"
+			app:key="brcred"
+			app:min="0"
+			app:title="@string/seekbar_r" />
+
+		<SeekBarPreference
+			android:max="255"
+			app:key="brcgreen"
+			app:min="0"
+			app:title="@string/seekbar_g" />
+
+		<SeekBarPreference
+			android:max="255"
+			app:key="brcblue"
+			app:min="0"
+			app:title="@string/seekbar_b" />
+
+	</PreferenceCategory>
+
+</PreferenceScreen>
