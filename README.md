@@ -13,6 +13,15 @@ Background live wallpaper application
 Set as live wallpaper background
 Define the 4 corner colors in the settings
 
+## Build
+
+Build with gradle according to the Android developer website via command-line https://developer.android.com/studio/build/building-cmdline
+or with Android Studio.
+
+### Dependencies
+
+There are no further library dependencies. 
+
 ## Google Play Store
 
 The application is published on the following URL:
