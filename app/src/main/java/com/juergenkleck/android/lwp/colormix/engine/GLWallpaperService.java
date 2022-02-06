@@ -1,4 +1,4 @@
-package info.simplyapps.lwp.colormix.engine;
+package com.juergenkleck.android.lwp.colormix.engine;
 
 import android.opengl.GLSurfaceView;
 import android.service.wallpaper.WallpaperService;
@@ -16,9 +16,14 @@ import javax.microedition.khronos.egl.EGLSurface;
 import javax.microedition.khronos.opengles.GL;
 import javax.microedition.khronos.opengles.GL10;
 
-import info.simplyapps.lwp.colormix.engine.BaseConfigChooser.ComponentSizeChooser;
-import info.simplyapps.lwp.colormix.engine.BaseConfigChooser.SimpleEGLConfigChooser;
+import com.juergenkleck.android.lwp.colormix.engine.BaseConfigChooser.ComponentSizeChooser;
+import com.juergenkleck.android.lwp.colormix.engine.BaseConfigChooser.SimpleEGLConfigChooser;
 
+/**
+ * Android App - ColorMix LWP
+ *
+ * Copyright 2022 by Juergen Kleck <develop@juergenkleck.com>
+ */
 public class GLWallpaperService extends WallpaperService {
 
     @Override

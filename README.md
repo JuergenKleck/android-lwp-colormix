@@ -22,8 +22,3 @@ or with Android Studio.
 
 There are no further library dependencies. 
 
-## Google Play Store
-
-The application is published on the following URL:
-
-https://play.google.com/store/apps/details?id=info.simplyapps.lwp.colormix

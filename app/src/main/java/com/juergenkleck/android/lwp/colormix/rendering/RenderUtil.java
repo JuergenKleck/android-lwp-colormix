@@ -1,4 +1,4 @@
-package info.simplyapps.lwp.colormix.rendering;
+package com.juergenkleck.android.lwp.colormix.rendering;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -10,6 +10,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.nio.ByteBuffer;
 
+/**
+ * Android App - ColorMix LWP
+ *
+ * Copyright 2022 by Juergen Kleck <develop@juergenkleck.com>
+ */
 public class RenderUtil {
 
     public static int loadShader(String strSource, int iType) {

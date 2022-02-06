@@ -1,4 +1,4 @@
-package info.simplyapps.lwp.colormix.engine;
+package com.juergenkleck.android.lwp.colormix.engine;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -9,10 +9,15 @@ import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.egl.EGLContext;
 import javax.microedition.khronos.egl.EGLDisplay;
 
-import info.simplyapps.lwp.colormix.ColorConstants;
-import info.simplyapps.lwp.colormix.rendering.Colors;
-import info.simplyapps.lwp.colormix.rendering.ValueContainer;
+import com.juergenkleck.android.lwp.colormix.ColorConstants;
+import com.juergenkleck.android.lwp.colormix.rendering.Colors;
+import com.juergenkleck.android.lwp.colormix.rendering.ValueContainer;
 
+/**
+ * Android App - ColorMix LWP
+ *
+ * Copyright 2022 by Juergen Kleck <develop@juergenkleck.com>
+ */
 public class ColorMixLWP extends GLWallpaperService {
 
     private static class ContextFactory implements EGLContextFactory {

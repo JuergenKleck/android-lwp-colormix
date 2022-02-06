@@ -1,5 +1,10 @@
-package info.simplyapps.lwp.colormix.rendering;
+package com.juergenkleck.android.lwp.colormix.rendering;
 
+/**
+ * Android App - ColorMix LWP
+ *
+ * Copyright 2022 by Juergen Kleck <develop@juergenkleck.com>
+ */
 public class ParticleUpdateThread extends Thread {
 
     ParticleManager pManager;

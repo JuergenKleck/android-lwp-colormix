@@ -1,4 +1,4 @@
-package info.simplyapps.lwp.colormix;
+package com.juergenkleck.android.lwp.colormix;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -7,6 +7,11 @@ import android.os.Bundle;
 import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.SeekBarPreference;
 
+/**
+ * Android App - ColorMix LWP
+ *
+ * Copyright 2022 by Juergen Kleck <develop@juergenkleck.com>
+ */
 public class ColorMixSettingsFragment extends PreferenceFragmentCompat {
 
     @Override
