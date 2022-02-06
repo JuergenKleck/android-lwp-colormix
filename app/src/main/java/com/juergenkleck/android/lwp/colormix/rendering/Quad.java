@@ -1,7 +1,12 @@
-package info.simplyapps.lwp.colormix.rendering;
+package com.juergenkleck.android.lwp.colormix.rendering;
 
 import java.nio.FloatBuffer;
 
+/**
+ * Android App - ColorMix LWP
+ *
+ * Copyright 2022 by Juergen Kleck <develop@juergenkleck.com>
+ */
 public class Quad {
 
     public FloatBuffer mPositionBuffer;

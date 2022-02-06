@@ -1,4 +1,4 @@
-package info.simplyapps.lwp.colormix.engine;
+package com.juergenkleck.android.lwp.colormix.engine;
 
 import android.content.Context;
 import android.opengl.GLES20;
@@ -10,13 +10,18 @@ import java.nio.ByteOrder;
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 
-import info.simplyapps.lwp.colormix.rendering.ParticleManager;
-import info.simplyapps.lwp.colormix.rendering.Quad;
-import info.simplyapps.lwp.colormix.rendering.Quads;
-import info.simplyapps.lwp.colormix.rendering.RenderUtil;
-import info.simplyapps.lwp.colormix.rendering.Shaders;
-import info.simplyapps.lwp.colormix.rendering.ValueContainer;
+import com.juergenkleck.android.lwp.colormix.rendering.ParticleManager;
+import com.juergenkleck.android.lwp.colormix.rendering.Quad;
+import com.juergenkleck.android.lwp.colormix.rendering.Quads;
+import com.juergenkleck.android.lwp.colormix.rendering.RenderUtil;
+import com.juergenkleck.android.lwp.colormix.rendering.Shaders;
+import com.juergenkleck.android.lwp.colormix.rendering.ValueContainer;
 
+/**
+ * Android App - ColorMix LWP
+ *
+ * Copyright 2022 by Juergen Kleck <develop@juergenkleck.com>
+ */
 public class ColorMixGLRenderer implements GLWallpaperService.Renderer {
 
     /**

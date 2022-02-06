@@ -1,5 +1,10 @@
-package info.simplyapps.lwp.colormix;
+package com.juergenkleck.android.lwp.colormix;
 
+/**
+ * Android App - ColorMix LWP
+ *
+ * Copyright 2022 by Juergen Kleck <develop@juergenkleck.com>
+ */
 public final class ColorConstants {
 
     public static final String SHARED_PREFS_NAME = "colormixlwpprefs";
